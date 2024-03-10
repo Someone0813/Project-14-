@@ -1,0 +1,293 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: url(/images/Header-bg1.svg) bottom right 165px, url(/images/Header-bg2.svg) center left,  var(--Midnight-Green) ;
+    background-repeat: no-repeat;
+}
+.Header__headline{
+    max-width: 1110px;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    gap: 577px;
+}
+.Headline__text{
+    max-width: 380px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.Headline__text--1{
+    display: flex;
+    gap: 40px;
+    align-items: center ;
+}
+.Headline__text--1 a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Headline__text--1 a:active{
+    color: #F67E7E;
+}
+.Headline__buttom{
+    width: 153px;
+    height: 48px;
+    background-color: var(--Midnight-Green);
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    cursor: pointer;
+}
+.Headline__buttom:active{
+    background-color: #FFFFFF;
+    color: #002529;
+}
+.Header__main{
+    max-width: 1110px;
+    display: flex;
+    gap: 30px;
+    margin-top: 129px;
+    margin-bottom: 250px;
+}
+.Header__main--1{
+    width: 635px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.Header__main--1 span{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #F67E7E;
+}
+.Header__main--2{
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+    gap: 79px;
+}
+.Header__main--2--img1{
+    width: 50px;
+    height: 4px;
+}
+.Header__main--2 p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.Main1{
+    background: url(/images/Main-bg1.svg) no-repeat bottom right ,var(--Sacramento-State);
+    padding: 140px 156px;
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+    align-items: center;
+}
+.Main1__1{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    max-width: 445px;
+}
+.Main1__1 img{
+    width: 50px;
+    height: 4px;
+}
+.Main1__1 span{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.Main1__2{
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Main1__2--1{
+    display: flex;
+    gap: 23px;
+}
+.Main1__2--1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Main1__2--1-1 p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+}
+.Main1__2--1-1 span{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.Main2{
+display: flex;
+flex-direction: column;
+gap: 56px;
+align-items: center;
+background: url(/images/Main2-img2.svg) no-repeat,url(/images/Main2-img3.svg) no-repeat bottom right ,var(--Deep-Jungle);
+padding: 140px 165px;
+}
+.Main2__1{
+    max-width: 932px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Main2__1 span{
+    color: #79C8C7;
+}
+.Main2__2{
+    display: flex;
+    max-width: 1110px;
+    gap: 30px;
+}
+.Main2__2--1{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Main2__2--1 span{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+.Main2__2--1 #p1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin-top: 24px;
+}
+.Main2__2--1 #p2{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2px;
+}
+.Main2__2--1 #img2{
+    width: 62px;
+    height: 62px;
+    margin-top: 32px;
+}
+.Main3{
+    display: flex;
+    gap: 260px;
+    padding: 76px 260px;
+    background: url(/images/Main3-img1.svg) bottom left no-repeat ,var(--Light-Coral);
+    align-items: center;
+}
+.Main3__1{
+    color: var(--Sacramento-State);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+.Main3__2{
+    width: 153px;
+    height: 48px;
+    background-color: var(--Light-Coral);
+    border: 2px solid var(--Midnight-Green);
+    border-radius: 24px;
+    color: var(--Midnight-Green);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    cursor: pointer;
+}
+.Main3__2:active{
+    background-color: var(--Midnight-Green);
+    border: none;
+    color: #FFFFFF;
+}
+footer{
+    background: var(--Dark-Green);
+    padding: 48px 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer__1{
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Footer__1 span{
+    display: flex;
+    gap: 40px;
+    max-width: 140px;
+}
+.Footer__1 span a{
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Footer__1 span a:active{
+    color: #F67E7E;
+}
+.Footer__2{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 125px;
+    width: 445px;
+}
+.Footer__2 p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.Footer__3{
+    max-width: 225px;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    align-items: right;
+    margin-left: 200px;
+}
+.Footer__3 img{
+    width: 104px;
+    height: 24px;
+    margin-left: 65px;
+}
+.Footer__3 span{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}

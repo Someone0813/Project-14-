@@ -1,0 +1,297 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: url(/images/About_img1.png) no-repeat bottom right,var(--Midnight-Green) ;
+    
+}
+.Header__headline{
+    max-width: 1110px;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    gap: 577px;
+}
+.Headline__text{
+    max-width: 380px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.Headline__text--1{
+    display: flex;
+    gap: 40px;
+    align-items: center ;
+}
+.Headline__text--1 a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Headline__text--1 a:active{
+    color: #F67E7E;
+}
+.Headline__buttom{
+    width: 153px;
+    height: 48px;
+    background-color: var(--Midnight-Green);
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    cursor: pointer;
+}
+.Headline__buttom:active{
+    background-color: #FFFFFF;
+    color: #002529;
+}
+.Header__main{
+    max-width: 1110px;
+    margin-top: 120px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+.Header__main--1{
+    width: 350px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.Header__main--2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Header__main--2 img{
+    width: 50px;
+    height: 4px;
+}
+.Header__main--2 span{
+    max-width: 730px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 140px 165px;
+    background: url(/images/Group\ 8.png) no-repeat, url(/images/Group\ 8\ Copy.png) no-repeat bottom right, var(--Deep-Jungle);
+}
+.Main__1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Main__2{
+    max-width: 1110px;
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}
+.Main__2--1{
+    max-width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.Main__2--11{
+    background: var(--Sacramento-State);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+.Main__2--11 .Main__2--11-1{
+    margin-top: 32px;
+}
+.Main__2--11 span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin-top: 16px;
+}
+.Main__2--11 p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Main__2--11 div{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--Light-Coral);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -28px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.Main__2--11 div:active{
+    background-color: #79C8C7;
+}
+.Main__2--12{
+    background: var(--Sacramento-State);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+.Main__2--12 p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin-top: 35px;
+}
+.Main__2--12 span{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 254px;
+    margin-top: 8px;
+}
+.Main__2--12 .Main__2--12-1{
+    margin-top: 24px;
+}
+.Main__2--12 div{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #79C8C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -28px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 165px;
+    gap: 64px;
+    background: url(/images/Group\ 8.svg) no-repeat,var(--Sacramento-State);
+}
+.section1 span{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Main3{
+    display: flex;
+    gap: 260px;
+    padding: 76px 260px;
+    background: url(/images/Main3-img1.svg) bottom left no-repeat ,var(--Light-Coral);
+    align-items: center;
+}
+.Main3__1{
+    color: var(--Sacramento-State);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+.Main3__2{
+    width: 153px;
+    height: 48px;
+    background-color: var(--Light-Coral);
+    border: 2px solid var(--Midnight-Green);
+    border-radius: 24px;
+    color: var(--Midnight-Green);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    cursor: pointer;
+}
+.Main3__2:active{
+    background-color: var(--Midnight-Green);
+    border: none;
+    color: #FFFFFF;
+}
+footer{
+    background: var(--Dark-Green);
+    padding: 48px 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer__1{
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Footer__1 span{
+    display: flex;
+    gap: 40px;
+    max-width: 140px;
+}
+.Footer__1 span a{
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Footer__1 span a:active{
+    color: #F67E7E;
+}
+.Footer__2{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 125px;
+    width: 445px;
+}
+.Footer__2 p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.Footer__3{
+    max-width: 225px;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    align-items: right;
+    margin-left: 200px;
+}
+.Footer__3 img{
+    width: 104px;
+    height: 24px;
+    margin-left: 65px;
+}
+.Footer__3 span{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+}
+
+:root{
+    --Midnight-Green: #014E56;
+    --Light-Coral: #F67E7E;
+    --Rapture-Blue: #79C8C7;
+    --Police-Blue: #2C6269;
+    --Sacramento-State: #012F34;
+    --Dark-Green: #002529;
+    --Deep-Jungle: #004047;
+}
+html,body{
+    height: 100%;
+}
